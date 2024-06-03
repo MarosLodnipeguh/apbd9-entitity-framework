@@ -139,7 +139,7 @@ public class TripsController : ControllerBase
         {
             IdClientNavigation = client,
             IdTripNavigation = trip,
-            PaymentDate = tripRequest.PaymentDate,
+            PaymentDate = tripRequest.PaymentDate, // nullable
             RegisteredAt = DateTime.Now
         };
         
